@@ -27,11 +27,17 @@ class BenchmarkRunner:
         )
         
         return {
+            "id": test_case.get("id"),
             "test_case": test_case["question"],
+            "expected_answer": test_case["expected_answer"],
+            "expected_retrieval_ids": test_case.get("expected_retrieval_ids", []),
             "agent_response": response["answer"],
+            "retrieved_ids": response.get("retrieved_ids", []),
             "latency": latency,
             "ragas": ragas_scores,
             "judge": judge_result,
+            "usage": response.get("metadata", {}),
+            "metadata": test_case.get("metadata", {}),
             "status": "fail" if judge_result["final_score"] < 3 else "pass"
         }
 
