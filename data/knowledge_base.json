@@ -1,0 +1,74 @@
+[
+  {
+    "id": "DOC_AUTH_001",
+    "title": "Password Reset Policy",
+    "content": "Users reset passwords from Account Settings by choosing Security, selecting Reset Password, and confirming the email verification code. Password reset links expire after 15 minutes.",
+    "keywords": ["password", "reset", "security", "email", "verification"]
+  },
+  {
+    "id": "DOC_AUTH_002",
+    "title": "Multi-factor Authentication",
+    "content": "Multi-factor authentication is required for administrators and optional for standard users. Supported methods are authenticator apps, SMS codes, and backup recovery codes.",
+    "keywords": ["mfa", "2fa", "multi-factor", "administrator", "sms", "recovery"]
+  },
+  {
+    "id": "DOC_BILLING_001",
+    "title": "Invoice Download",
+    "content": "Invoices are available in Billing after the monthly cycle closes. Users can download PDF invoices for the last 24 months from Billing History.",
+    "keywords": ["invoice", "billing", "pdf", "history", "download"]
+  },
+  {
+    "id": "DOC_BILLING_002",
+    "title": "Refund Eligibility",
+    "content": "Refund requests are accepted within 14 days of purchase when usage is below 20 percent of the monthly quota. Annual plans are prorated only when required by contract.",
+    "keywords": ["refund", "purchase", "quota", "annual", "contract"]
+  },
+  {
+    "id": "DOC_DATA_001",
+    "title": "Data Export",
+    "content": "Workspace owners can export project data as CSV or JSON from Workspace Settings. Large exports are delivered by email when processing is complete.",
+    "keywords": ["export", "csv", "json", "workspace", "owner", "email"]
+  },
+  {
+    "id": "DOC_DATA_002",
+    "title": "Data Retention",
+    "content": "Deleted projects remain recoverable for 30 days. Audit logs are retained for 365 days for enterprise workspaces and 90 days for standard workspaces.",
+    "keywords": ["retention", "deleted", "recoverable", "audit", "logs", "enterprise"]
+  },
+  {
+    "id": "DOC_INTEGRATION_001",
+    "title": "Slack Integration",
+    "content": "Slack notifications can be enabled from Integrations by connecting a workspace and selecting the target channel. Only workspace admins can configure the Slack integration.",
+    "keywords": ["slack", "integration", "notification", "channel", "admin"]
+  },
+  {
+    "id": "DOC_INTEGRATION_002",
+    "title": "API Rate Limits",
+    "content": "The public API allows 600 requests per minute per workspace. When the limit is exceeded, the API returns HTTP 429 with a Retry-After header.",
+    "keywords": ["api", "rate", "limit", "http", "429", "retry-after"]
+  },
+  {
+    "id": "DOC_SECURITY_001",
+    "title": "Role Permissions",
+    "content": "Viewers can read projects, editors can modify project content, and owners can manage billing, exports, integrations, and member permissions.",
+    "keywords": ["role", "viewer", "editor", "owner", "permission", "billing"]
+  },
+  {
+    "id": "DOC_SECURITY_002",
+    "title": "Incident Response",
+    "content": "Security incidents must be reported within 24 hours through the security portal. The response team classifies severity and sends status updates every 4 hours for critical incidents.",
+    "keywords": ["incident", "security", "portal", "severity", "critical", "status"]
+  },
+  {
+    "id": "DOC_SUPPORT_001",
+    "title": "Support Escalation",
+    "content": "Priority support is available for enterprise customers. Critical tickets receive a first response within 1 hour, while standard tickets receive a first response within 1 business day.",
+    "keywords": ["support", "escalation", "enterprise", "ticket", "critical", "response"]
+  },
+  {
+    "id": "DOC_SUPPORT_002",
+    "title": "Maintenance Windows",
+    "content": "Planned maintenance is announced at least 72 hours in advance. Emergency maintenance may happen sooner when needed to protect customer data or service availability.",
+    "keywords": ["maintenance", "planned", "emergency", "availability", "announce"]
+  }
+]
